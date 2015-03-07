@@ -1,0 +1,4 @@
+#Ignore files in target folder
+**/target
+**/.idea
+!**/.gitignore
