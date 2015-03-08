@@ -50,16 +50,11 @@ public class App {
 
             @Override
             public Long getCourseId() {
-                return 123L;
+                return 125L;
             }       
         };
         
-//        StudentRecord student = new StudentRecord();
-//        student.setAddress("Merrillville IN");
-//        student.setCourseId(1000L);
-//        student.setFirstName("Ruel");
-//        student.setLastName("Santiago");
-//        
+
         studentService.createStudent(student);
     }
 }
