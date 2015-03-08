@@ -105,6 +105,7 @@
     </dependencies> 
     
      <build>
+         <outputDirectory>/tmp/${project.name}_properties</outputDirectory>
          <filters>
              <filter>src\filters\myspring-jpa.filter.properties</filter>
          </filters>
